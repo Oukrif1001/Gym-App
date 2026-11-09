@@ -1,11 +1,11 @@
 # 🏋️ Gym Management API - Express.js
 
-API REST complète pour la gestion d'une salle de sport, utilisant Express.js et Supabase.
+API REST complète pour la gestion d'une salle de sport, utilisant Express.js
 
 ## 📋 Prérequis
 
 - Node.js 18+
-- Un projet Supabase (utilisez celui de votre app Lovable)
+
 
 ## 🚀 Installation
 
@@ -28,12 +28,7 @@ npm run dev
 Créez un fichier `.env` avec :
 
 ```env
-SUPABASE_URL=https://flgoivktpdspymvhkgnw.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=votre_service_role_key
-SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-JWT_SECRET=votre_secret_jwt_super_securise
-PORT=3001
-```
+
 
 ## 📚 Endpoints API
 
@@ -133,26 +128,7 @@ Authorization: Bearer <votre_jwt_token>
 
 ## 🚀 Déploiement
 
-### Render.com
-1. Créer un nouveau Web Service
-2. Connecter votre repo GitHub
-3. Build command: `npm install`
-4. Start command: `npm start`
-5. Ajouter les variables d'environnement
 
-### Railway.app
-1. Créer un nouveau projet
-2. Connecter votre repo GitHub
-3. Ajouter les variables d'environnement
-4. Déployer automatiquement
-
-### VPS (DigitalOcean, AWS, etc.)
-```bash
-# Avec PM2
-npm install -g pm2
-pm2 start src/index.js --name gym-api
-pm2 save
-```
 
 ## 📝 Exemple d'utilisation
 
