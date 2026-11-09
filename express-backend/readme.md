@@ -17,7 +17,7 @@ npm install
 cp .env.example .env
 
 # 3. Configurer les variables d'environnement
-# Éditez .env avec vos clés Supabase
+
 
 # 4. Démarrer le serveur
 npm run dev
